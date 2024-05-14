@@ -1,0 +1,22 @@
+{
+  "name": "mono24",
+  "displayName": "mono24",
+  "description": "Modern Monochrome Black and White",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "mono-24_light.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "mono24",
+        "uiTheme": "vs",
+        "path": "./themes/mono24-color-theme.json"
+      }
+    ]
+  }
+}
