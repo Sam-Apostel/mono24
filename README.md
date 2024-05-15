@@ -20,11 +20,11 @@ npm version [major | minor | patch]
 
 1. build the extension:
 ```shell
-vsce package
+npx vsce package
 ```
 This creates a `.vsix` file. You can install a `.vsix` using `> Extensions: Install from VSIX...`
 
 ## Deploying to the VSCode Marketplace
 ```shell
-vsce publish
+npx vsce publish
 ```
