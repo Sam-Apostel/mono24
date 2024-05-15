@@ -21,5 +21,14 @@
   },
   "dependencies": {
     "@vscode/vsce": "^2.26.1"
-  }
+  },
+  "repository": "https://github.com/Sam-Apostel/mono24",
+  "contributors": [
+    {
+      "name": "Sam Apostel",
+      "url": "https://sams.land"
+    }
+  ],
+  "author": "Sam Apostel",
+  "license": "MIT"
 }
