@@ -9,7 +9,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "assets/mono-24_light.png",
+  "icon": "mono-24_light.png",
   "contributes": {
     "themes": [
       {
