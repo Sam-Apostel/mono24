@@ -18,5 +18,8 @@
         "path": "./themes/mono24-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.26.1"
   }
 }

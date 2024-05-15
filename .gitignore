@@ -1,0 +1,5 @@
+node_modules
+*.vsix
+
+# Macos
+.DS_Store

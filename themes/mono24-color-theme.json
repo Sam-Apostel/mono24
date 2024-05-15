@@ -1,0 +1,131 @@
+{
+	"name": "mono24",
+	"colors": {
+		"editor.background": "#ffffff",
+		"editor.foreground": "#000000",
+        "list.activeSelectionIconForeground": "#000",
+		"activityBar.background": "#fff",
+		"activityBar.foreground": "#000",
+		"statusBar.background": "#f2f2f2",
+		"statusBar.foreground": "#9e9e9e",
+		"statusBar.border": "#00000012",
+		"badge.background": "#0000000f",
+		"activityBarBadge.background": "#0000000f",
+		"activityBarBadge.foreground": "#000000",
+		"button.background": "#000000",
+		"button.foreground": "#ffffffe8",
+
+		"commandCenter.background": "#fff",
+		"titleBar.activeBackground": "#ffffff00",
+		"list.activeSelectionBackground": "#00000028",
+		"list.activeSelectionForeground": "#000",
+
+		"editorGutter.addedBackground": "#0007",
+		"editorGutter.modifiedBackground": "#0007",
+		"editorLineNumber.foreground": "#e8e8e8",
+
+		"editor.selectionBackground": "#00000013",
+		"scrollbarSlider.background": "#00000015"
+	},
+	"tokenColors": [
+		{
+			"name": "Import: keyword",
+			"scope": [
+				"meta.import",
+				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#9f9f9f",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Import: variable",
+			"scope": [
+				"meta.import",
+				"variable.other.readwrite.alias",
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Import: braces",
+			"scope": [
+				"meta.import",
+				"punctuation.definition.block.tsx",
+				"meta.block"
+			],
+			"settings": {
+				"foreground": "#878787",
+			}
+		},
+		{
+			"name": "Import: path",
+			"scope": [
+				"meta.import",
+				"string",
+			],
+			"settings": {
+				"foreground": "#878787",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#d0d0d0"
+			}
+		},
+
+
+		{
+			"name": "Variable",
+			"scope": [
+				"variable.other.constant.tsx",
+				"entity.name.function.tsx",
+				"entity.name.tag.tsx",
+				"constant.numeric.decimal.tsx"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Variable: keyword",
+			"scope": [
+				"storage.type.tsx",
+				"meta.var.expr.tsx",
+				"meta.function.expression.tsx",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#9f9f9f"
+			}
+		},
+		{
+			"name": "Function: keyword",
+			"scope": [
+				"storage.type.function.tsx",
+				"meta.parameters.tsx",
+				"variable.other.object.tsx",
+				"variable.other.object.property.tsx",
+				"variable.other.property.tsx",
+				"string.quoted.double.tsx",
+				"variable.other.readwrite.tsx"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+	
+	]
+}
